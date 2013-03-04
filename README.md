@@ -9,7 +9,7 @@ Uses
 - Creating quick static fileservers in a directory
 - Rapid prototyping of APIs.
 - Running a simple, manageable local server setup. *(instead of trying to manage mirroring a production setup)*
-- Serving up PHP in the worst way you could possibly imagine. [*(seriously, this is wrong on so many levels)*](server-modules/php.server.js)
+- Serving up PHP in the **worst way you could possibly imagine**. [*(seriously, this is wrong on so many levels)*](server-modules/php.server.js)
 
 ---
 
