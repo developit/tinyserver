@@ -30,16 +30,25 @@ Specifying Options
 
 Available Options
 -----------------
-**`port` - Listen on the given port**  
-*Defaults to 8080*  
-**`dir` - Serve content from the given directory**  
-*Defaults to the working directory.*  
-**`host` - Accept requests to the given hostname.**  
-*Defaults to "\*" (all)*  
-**`modules_dir` - Where to look for modules**  
-*Defaults to "./server-modules"*  
-**`modules_ext` - File extension for modules**  
-*Defaults to ".server.js"*  
+`port`  
+**Listen on the given port.**  
+*Defaults to 8080*
+
+`dir`  
+**Serve content from the given directory**  
+*Defaults to the working directory.*
+
+`host`  
+**Accept requests to the given hostname.**  
+*Defaults to "\*" (all)*
+
+`modules_dir`  
+**Where to look for modules**  
+*Defaults to "./server-modules"*
+
+`modules_ext`  
+**File extension for modules**  
+*Defaults to ".server.js"*
 
 Example
 -------
