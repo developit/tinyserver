@@ -1,10 +1,10 @@
 
 var routes = {
-	'^/server/stop/?$' : function(m, req, res) {
-		res.writeHead(200), res.end('stopping');
-		//require('child_process').exec(process.argv.join(' ').replace(/\s&$/g,'')+' &');
-		process.exit();
-	},
+	//'^/server/stop/?$' : function(m, req, res) {
+	//	res.writeHead(200), res.end('stopping');
+	//	//require('child_process').exec(process.argv.join(' ').replace(/\s&$/g,'')+' &');
+	//	process.exit();
+	//},
 	'^/server/info/?$' : function(m, req, res) {
 		var os = require('os'),
 			props = [],
@@ -37,6 +37,8 @@ var routes = {
 		res.end(op);
 	}
 };
+
+global.apiRoutes = routes;
 
 exports.name = 'API';
 
